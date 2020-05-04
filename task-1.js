@@ -2,8 +2,8 @@
 // Задание 1. Числа
 
 // 1. Получить число pi из Math и округлить его до 2-х знаков после точки
-const pi = (Number(Math.PI));
-const pi2 = (Number(pi.toFixed(2))); // возвращает два числа после запятой
+const pi = Math.PI;
+const pi2 = pi.toFixed(2); // возвращает два числа после запятой
 console.log(pi2);  // 3.14 
 document.write('1) PI из Math = ',pi ,'<br>','Округленное PI = ',pi2,'<br>');
 
@@ -15,7 +15,7 @@ document.write(' 2)Минимум = ', arr1,'<br>','Максимум = ',arr2,'<
 
 // 3. Работа с Math.random:
 //    * Получить случайное число и округлить его до двух цифр после запятой
-const random2 = ((Math.random().toFixed(2)));
+const random2 = Math.random().toFixed(2);
 console.log(random2);
 document.write('3) Случайное число от 0 до 1 = ', random2,'<br>');
 

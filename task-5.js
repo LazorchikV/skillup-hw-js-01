@@ -52,7 +52,7 @@ if (car.age > 5){
 // иначе если поля *discount* нет то вывести просто поле *price* в консоль.
 let item = { name: 'Intel core i7', price: '100$', discount: '15%' };
 
-if (item.discount && item.price != Number.NaN){
+if (item.discount && item.discount !== Number.NaN && item.price && item.price !== Number.NaN){
 	item.priceWithDiscount = (parseInt(item.price,10)) - (parseInt(item.price,10))*(parseInt(item.discount,10)) / 100;
 	console.log(item.priceWithDiscount)
 }else{console.log(item.price)};

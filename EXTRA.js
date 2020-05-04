@@ -57,7 +57,7 @@ document.write('Заказ оформлен, с вами свяжется мен
 //# Задание 3
 
 //Напиши скрипт имитирующий авторизацию администратора в панели управления.
-const ADMIN_PASSWORD = 'admin123';
+/*const ADMIN_PASSWORD = 'admin123';
 users ={user:"admin",
         admin_password: true
 	   };
@@ -75,3 +75,4 @@ function
 //- После всех проверок вывести в `alert` значение переменной `message`.
 
 let message;
+*/

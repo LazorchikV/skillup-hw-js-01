@@ -25,7 +25,7 @@ console.log(pos2);
 document.write('4) Положение второго пробела: ',pos2,'<br>');
 
 //5. Получить строку с 5-го символа длиной 4 буквы
-const fromTo = string.substr(5, [4]); 
+const fromTo = string.substr(5, 4); 
 console.log(fromTo);
 document.write('5) Получить строку с 5-го символа длиной 4 буквы: ',fromTo,'<br>');
 
